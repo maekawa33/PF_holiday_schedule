@@ -47,6 +47,9 @@
 ## 画面遷移図  
  figma: https://www.figma.com/file/T2j3sOWYwK3OnzkLfR9b6m/PF_schedule?node-id=0%3A1&t=Q8vdf4y5dG0Zkv3m-1
 
+## ER図
+ ![ER図](er_diagram.png)
+ 
 ## スケジュール  
 企画〜技術調査：12/1〆切  
 README~ER図作成：12/10〆切  
