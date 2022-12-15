@@ -30,15 +30,16 @@ erDiagram
     }
     schedules {
         integer id "PK"
-        string name
-        integer person_num
         integer user_id "FK"
+        string name
+        integer assumed_number_people
         timestamp created_at
         timestamp updated_at
     }
 
     events {
         integer id "PK"
+        integer schedule_id "FK"
         time start_time
         time end_time
         string name
@@ -46,7 +47,6 @@ erDiagram
         integer price
         string store
         string comment
-        integer schedule_id "FK"
         timestamp created_at
         timestamp updated_at
     }
